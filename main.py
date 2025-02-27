@@ -1060,7 +1060,7 @@ while running:
                     pygame.K_RETURN: keys[pygame.K_RETURN]  # Attack key
                 }
                 player2.move(player2_keys, pygame.K_RETURN)
-                player2.is_guarding = keys[pygame.K_n] and player2.guard_cooldown <= 0
+                player2.is_guarding = keys[pygame.K_RSHIFT] and player2.guard_cooldown <= 0
             
             # Check for hits and possible clash battle trigger
             result = player1.check_hit(player2)
