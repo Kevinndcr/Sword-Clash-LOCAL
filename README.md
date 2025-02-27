@@ -27,11 +27,11 @@ A 2D medieval-themed fighting game with local and network multiplayer support.
 
 **Player 2 (Client):**
 - Movement:
-  - W: Move Up
-  - A: Move Left
-  - S: Move Down
-  - D: Move Right
-- Attack: Spacebar (Press and hold for charged attacks)
+  - Up arrow: Move Up
+  - Left arrow: Move Left
+  - Down arrow: Move Down
+  - Right arrow: Move Right
+- Attack: Enter (Press and hold for charged attacks)
 - Guard/Block: Right Shift (Hold to maintain guard)
 - Special Move: F (When special meter is full)
 - Dash: Double-tap movement key
